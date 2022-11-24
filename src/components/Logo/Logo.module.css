@@ -1,28 +1,26 @@
-.logo{
-    position: relative;
+.logo {
+  position: relative;
 }
-.txt{
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    color: #171717;
-    mix-blend-mode: darken;
+.txt {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #171717;
+  mix-blend-mode: darken;
 }
-.circle{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #029BC5;
-    border: 5px solid #171717;
-    left: 140px;
+.circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #029bc5;
+  border: 5px solid #171717;
+  left: 140px;
 }
 
-
-
-
-
-
-
-
+.navItem {
+  margin-left: 5%;
+  text-decoration: none;
+  color: #171717;
+}

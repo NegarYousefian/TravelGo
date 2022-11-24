@@ -1,6 +1,6 @@
 import styles from './Modal.module.css';
 
-const Modal = ({ children, open, onClose, className }) => {
+const Modal = ({ children, open, onClose }) => {
   if (!open) {
     return null;
   }
@@ -10,7 +10,7 @@ const Modal = ({ children, open, onClose, className }) => {
         <p className={styles.closeBtn} onClick={onClose}>
             X
         </p>
-        <div className={className}>
+        <div className={styles.content}>
             {children}
         </div>
       </div>
